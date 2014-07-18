@@ -27,3 +27,7 @@ Retrogame-xbmc
 This contains my shut down button version
 
 The button mask on this version takes a single button to initiate shutdown
+
+SDL 2.0.3 FIX
+=============
+Replace the sdl_udev.c in your SDL source directory (src/core/linux/) with the one here and retrogame will work with SDL2 applications
