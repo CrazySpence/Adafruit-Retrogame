@@ -22,3 +22,8 @@ This Also has 3 button bombo handlers
 
 ESC allows me me leave MAME, ENTER was needed for Quakeforge and the emrgency shut down is to handle any applicsation failures or crashes (super mario war 1.8) as it would require a hard lock of the system to thwart retrogame
 
+Retrogame-xbmc
+
+This contains my shut down button version
+
+The button mask on this version takes a single button to initiate shutdown
