@@ -15,14 +15,14 @@ Retogame-arcadebox:
 
 This contains my 12 GPIO mappings for my arcade setup
 
-This Also has 3 button bombo handlers 
+This Also has 3 button combo handlers 
 1 for KEY_ESC
 1 for KEY_ENTER
 1 for shutdown
 
-ESC allows me me leave MAME, ENTER was needed for Quakeforge and the emrgency shut down is to handle any applicsation failures or crashes (super mario war 1.8) as it would require a hard lock of the system to thwart retrogame
+ESC allows me me leave MAME, ENTER was needed for Quakeforge and the emergency shut down is to handle any application failures or crashes (super mario war 1.8) as it would require a hard lock of the system to thwart retrogame
 
-Retrogame-xbmc
+Retrogame-xbmc:
 
 This contains my shut down button version
 
@@ -31,3 +31,5 @@ The button mask on this version takes a single button to initiate shutdown
 SDL 2.0.3 FIX
 =============
 Replace the sdl_udev.c in your SDL source directory (src/core/linux/) with the one here and retrogame will work with SDL2 applications
+
+This fix allows both SDL1.2 and 2.0 apps to work with retrogame
