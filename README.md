@@ -28,8 +28,15 @@ This contains my shut down button version
 
 The button mask on this version takes a single button to initiate shutdown
 
-SDL 2.0.3 FIX
+SDL 2.0.3 or earlier FIX
 =============
 Replace the sdl_udev.c in your SDL source directory (src/core/linux/) with the one here and retrogame will work with SDL2 applications
 
 This fix allows both SDL1.2 and 2.0 apps to work with retrogame
+
+Beyond SDL 2.0.3
+================
+The SDL devs just posted this offical change to the udev handler:
+https://bugzilla.libsdl.org/show_bug.cgi?id=2654
+
+Hopefully this means going forward retrogame "just works" again with all breeds of SDL
